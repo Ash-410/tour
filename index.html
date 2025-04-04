@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Karnataka - Official Tourism Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Karnataka Tourism Logo" class="logo">
+            <h1>Discover Karnataka</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#itinerary">Plan Your Trip</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#festivals">Festivals</a></li>
+                <li><a href="#sustainability">Eco-Tourism</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience the Wonder of Karnataka</h1>
+            <p>Discover ancient heritage, lush landscapes, and vibrant culture</p>
+            <div class="hero-buttons">
+                <button class="primary-btn">Plan Your Trip</button>
+                <button class="secondary-btn" >Explore Destinations</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destination Categories Section -->
+    <section id="categories" class="categories">
+        <div class="section-title">
+            <h2>Explore By Interest</h2>
+            <p>Discover Karnataka's diverse attractions</p>
+        </div>
+        <div class="category-container">
+            <div class="category-card">
+                <img src="heritage.jpeg" alt="Heritage Sites">
+                <h3>Heritage & History</h3>
+                <p>UNESCO sites like Hampi, Pattadakal, and ancient temples</p>
+            </div>
+            <div class="category-card">
+                <img src="download.jpeg" alt="Nature and Wildlife">
+                <h3>Nature & Wildlife</h3>
+                <p>National parks, hill stations, and pristine forests</p>
+            </div>
+            <div class="category-card">
+                <img src="beaches.jpeg" alt="Beaches">
+                <h3>Beaches & Coastal Gems</h3>
+                <p>Gokarna, Karwar, and hidden coastal retreats</p>
+            </div>
+            <div class="category-card">
+                <img src="adventure.jpeg" alt="Adventure">
+                <h3>Adventure Tourism</h3>
+                <p>Trekking, water sports, and outdoor activities</p>
+            </div>
+            <div class="category-card">
+                <img src="spritual.jpeg" alt="Religious Sites">
+                <h3>Spiritual Journey</h3>
+                <p>Temples, mosques, churches, and spiritual centers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section id="destinations" class="destinations">
+        <div class="section-title">
+            <h2>Popular & Hidden Gems</h2>
+            <p>From iconic landmarks to offbeat treasures</p>
+        </div>
+        <div class="destination-container">
+            <div class="destination-card">
+                <div class="destination-img">
+                    <img src="hamp.jpeg" alt="Hampi">
+                </div>
+                <div class="destination-info">
+                    <h3>Hampi</h3>
+                    <p class="destination-type">UNESCO World Heritage Site</p>
+                    <p>Ancient ruins of the Vijayanagara Empire with stunning stone structures and temples.</p>
+                    <div class="destination-meta">
+                        <span><i class="fas fa-clock"></i> Best time: Oct-Mar</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Ballari District</span>
+                    </div>
+                    <a href="#" class="destination-link">Explore More</a>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="destination-img">
+                    <img src="agumbe.jpg" alt="Agumbe">
+                </div>
+                <div class="destination-info">
+                    <h3>Agumbe</h3>
+                    <p class="destination-type">Hidden Natural Paradise</p>
+                    <p>Known as the 'Cherrapunji of South India' with breathtaking rainforests and sunset views.</p>
+                    <div class="destination-meta">
+                        <span><i class="fas fa-clock"></i> Best time: Nov-Feb</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Shimoga District</span>
+                    </div>
+                    <a href="#" class="destination-link">Explore More</a>
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="destination-img">
+                    <img src="kodachadri.jpg" alt="Kodachadri">
+                </div>
+                <div class="destination-info">
+                    <h3>Kodachadri</h3>
+                    <p class="destination-type">Lesser-Known Hill Station</p>
+                    <p>A picturesque peak in the Western Ghats with lush forests and trekking trails.</p>
+                    <div class="destination-meta">
+                        <span><i class="fas fa-clock"></i> Best time: Sep-Feb</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Shimoga District</span>
+                    </div>
+                    <a href="#" class="destination-link">Explore More</a>
+                </div>
+            </div>
+        </div>
+        <div class="view-more">
+            <button class="primary-btn" >View All Destinations</button>
+        </div>
+    </section>
+
+    <!-- Itinerary Builder Section -->
+    <section id="itinerary" class="itinerary-builder">
+        <div class="section-title">
+            <h2>Custom Itinerary Builder</h2>
+            <p>Plan your perfect Karnataka adventure</p>
+        </div>
+        <div class="itinerary-form">
+            <div class="form-group">
+                <label>Duration of Stay</label>
+                <select id="duration">
+                    <option value="2-3">2-3 days</option>
+                    <option value="4-5">4-5 days</option>
+                    <option value="6-7">6-7 days</option>
+                    <option value="8+">8+ days</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Travel Interest</label>
+                <select id="interest">
+                    <option value="heritage">Heritage & History</option>
+                    <option value="nature">Nature & Wildlife</option>
+                    <option value="beaches">Beaches & Coastal Areas</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="spiritual">Spiritual Journey</option>
+                    <option value="mixed">Mix of Everything</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Travel Season</label>
+                <select id="season">
+                    <option value="monsoon">Monsoon (Jun-Sep)</option>
+                    <option value="winter">Winter (Oct-Feb)</option>
+                    <option value="summer">Summer (Mar-May)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Travel Style</label>
+                <select id="style">
+                    <option value="budget">Budget Friendly</option>
+                    <option value="comfort">Comfort</option>
+                    <option value="luxury">Luxury</option>
+                </select>
+            </div>
+            <button id="generate-itinerary" class="primary-btn">Generate Itinerary</button>
+        </div>
+        <div id="itinerary-result" class="itinerary-result">
+            <!-- Itinerary will be generated here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Transportation Guide -->
+    <section id="transportation" class="transportation">
+        <div class="section-title">
+            <h2>Getting Around Karnataka</h2>
+            <p>Transportation options and connectivity</p>
+        </div>
+        <div class="transport-container">
+            <div class="transport-card">
+                <div class="transport-icon">
+                    <i class="fas fa-plane"></i>
+                </div>
+                <h3>By Air</h3>
+                <p>Major airports in Bengaluru, Mangalore, Hubballi, and Belagavi with connections to major cities.</p>
+            </div>
+            <div class="transport-card">
+                <div class="transport-icon">
+                    <i class="fas fa-train"></i>
+                </div>
+                <h3>By Rail</h3>
+                <p>Extensive railway network connecting major districts with regular services.</p>
+            </div>
+            <div class="transport-card">
+                <div class="transport-icon">
+                    <i class="fas fa-bus"></i>
+                </div>
+                <h3>By Road</h3>
+                <p>Well-maintained highways and state transport buses covering urban and rural areas.</p>
+            </div>
+            <div class="transport-card">
+                <div class="transport-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <h3>Car Rentals</h3>
+                <p>Self-drive options and chauffeur services available across major cities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accommodation Section -->
+    <section id="stay" class="accommodations">
+        <div class="section-title">
+            <h2>Where to Stay</h2>
+            <p>From homestays to luxury resorts</p>
+        </div>
+        <div class="accommodation-container">
+            <div class="accommodation-card">
+                <img src="local.jpg" alt="Homestays">
+                <h3>Local Homestays</h3>
+                <p>Experience authentic Karnataka culture with local families</p>
+            </div>
+            <div class="accommodation-card">
+                <img src="eco.jpg" alt="Eco Resorts">
+                <h3>Eco Resorts</h3>
+                <p>Sustainable stays in harmony with nature</p>
+            </div>
+            <div class="accommodation-card">
+                <img src="heri.jpg" alt="Heritage Hotels">
+                <h3>Heritage Hotels</h3>
+                <p>Stay in converted palaces and historic buildings</p>
+            </div>
+            <div class="accommodation-card">
+                <img src="lux.webp" alt="Luxury Resorts">
+                <h3>Luxury Resorts</h3>
+                <p>Premium accommodations with world-class amenities</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Festivals Section -->
+    <section id="festivals" class="festivals">
+        <div class="section-title">
+            <h2>Festivals of Karnataka</h2>
+            <p>Plan your visit around vibrant cultural celebrations</p>
+        </div>
+        <div class="festival-carousel">
+            <div class="festival-card">
+                <img src="dasara.webp" alt="Mysore Dasara">
+                <div class="festival-info">
+                    <h3>Mysore Dasara</h3>
+                    <p class="festival-date">September/October</p>
+                    <p>The grand state festival featuring illuminated palace, processions, and cultural events.</p>
+                </div>
+            </div>
+            <div class="festival-card">
+                <img src="hampiut.jpg" alt="Hampi Utsav">
+                <div class="festival-info">
+                    <h3>Hampi Utsav</h3>
+                    <p class="festival-date">November</p>
+                    <p>Cultural extravaganza celebrating the glory of the Vijayanagara Empire.</p>
+                </div>
+            </div>
+            <div class="festival-card">
+                <img src="Pattadakal Dance.jpeg" alt="Pattadakal Dance Festival">
+                <div class="festival-info">
+                    <h3>Pattadakal Dance Festival</h3>
+                    <p class="festival-date">January</p>
+                    <p>Classical dance performances against the backdrop of ancient temples.</p>
+                </div>
+            </div>
+            <div class="festival-card">
+                <img src="yaksha.jpg" alt="Pattadakal Dance Festival">
+                <div class="festival-info">
+                    <h3>Yakshagana</h3>
+                    <p class="festival-date">November/May</p>
+                    <p>A traditional folk theatre form of Karnataka that combines dance, music, dialogue, costume, and storytelling to depict mythological and historical tales.</p>
+                </div>
+            </div>
+        </div>
+       <!-- <div class="festival-calendar">
+            <h3>Annual Festival Calendar</h3>
+            <div id="festival-timeline">
+                 Festival timeline will be populated by JavaScript 
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Sustainable Tourism Section -->
+    <section id="sustainability" class="eco-tourism">
+        <div class="section-title">
+            <h2>Responsible Travel</h2>
+            <p>Promoting eco-friendly and sustainable tourism</p>
+        </div>
+        <div class="eco-principles">
+            <div class="eco-card">
+                <div class="eco-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h3>Minimize Environmental Impact</h3>
+                <p>Tips for reducing waste, conserving water, and protecting natural habitats.</p>
+            </div>
+            <div class="eco-card">
+                <div class="eco-icon">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3>Support Local Communities</h3>
+                <p>Buy from local artisans, eat at local restaurants, and engage with community-based tourism.</p>
+            </div>
+            <div class="eco-card">
+                <div class="eco-icon">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <h3>Respect Cultural Heritage</h3>
+                <p>Guidelines for respectful behavior at heritage sites and religious places.</p>
+            </div>
+            <div class="eco-card">
+                <div class="eco-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h3>Responsible Photography</h3>
+                <p>Ethical photography practices and respecting local sensitivities.</p>
+            </div>
+        </div>
+        <div class="eco-initiatives">
+            <h3>Eco-Tourism Initiatives in Karnataka</h3>
+            <ul class="initiative-list">
+                <li>
+                    <strong>Community-based Tourism in Coorg</strong>
+                    <p>Local coffee plantations offering immersive and sustainable experiences.</p>
+                </li>
+                <li>
+                    <strong>Wildlife Conservation Projects</strong>
+                    <p>Participatory programs for wildlife protection in national parks.</p>
+                </li>
+                <li>
+                    <strong>Plastic-free Coastal Campaigns</strong>
+                    <p>Initiatives to keep beaches clean and protect marine life.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="section-title">
+            <h2>Traveler Stories</h2>
+            <p>Experiences from fellow explorers</p>
+        </div>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"The custom itinerary builder helped me discover hidden gems I would have never found on my own. My week in Karnataka was unforgettable!"</p>
+                </div>
+                <div class="testimonial-author">
+                    <div>
+                        <h4>Riya Shah</h4>
+                        <p>Adventure Enthusiast</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"As a history buff, the detailed information about Karnataka's heritage sites was invaluable. The transportation guides made planning my journey seamless."</p>
+                </div>
+                <div class="testimonial-author">
+                    <div>
+                        <h4>John Mathews</h4>
+                        <p>History Researcher</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"The eco-tourism recommendations helped our family have a responsible yet enjoyable vacation. We loved the homestay experience in Coorg!"</p>
+                </div>
+                <div class="testimonial-author">
+                    <div>
+                        <h4>Priya & Family</h4>
+                        <p>Eco-conscious Travelers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Stay Updated with Karnataka Tourism</h2>
+            <p>Subscribe to receive travel inspiration, upcoming events, and exclusive offers</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your Email Address" required>
+                <button type="submit" class="primary-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About This Initiative</h3>
+                <p>A digital platform launched on April 2, 2024, to promote Karnataka's tourism potential through a comprehensive and user-friendly resource.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#itinerary">Plan Your Trip</a></li>
+                    <li><a href="#sustainability">Eco-Tourism</a></li>
+                    <li><a href="#festivals">Festivals</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Travel Resources</h3>
+                <ul>
+                    <li><a href="#">Travel Guides</a></li>
+                    <li><a href="#">Transportation</a></li>
+                    <li><a href="#">Accommodation</a></li>
+                    <li><a href="#">Local Cuisine</a></li>
+                    <li><a href="#">Safety Tips</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+                <p>Email: info@discoverkarnataka.org</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Discover Karnataka. All rights reserved.</p>
+            <p>Promoting sustainable tourism and cultural preservation</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
